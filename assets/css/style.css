@@ -12,8 +12,8 @@ body {
 /* social media icon link */
 @font-face {
     font-family: 'Genericons';
-    src: url('/assets/genericons/genericons-regular-webfont.woff')format('woff'),
-    url('/assets/genericons/genericons-regular-webfont.eot')format('truetype')
+    src: url('./assets/genericons/genericons-regular-webfont.woff')format('woff'),
+         url('./assets/genericons/genericons-regular-webfont.eot')format('truetype')
 }
 
 .container {
@@ -92,8 +92,7 @@ header h1 {
     padding-top: 90px;
     padding-left: 25px;
     display: block;
-    font-size: 30px;
-    font-family: Genericons;
+    font: normal 30px Genericons;
     color: #fff;
     transition: all 0.4s ease-in-out 0.1s
 }
